@@ -8,9 +8,9 @@ import { useState } from "react";
 import Links from "../component/links";
 const Header = () => {
   const [isOpen, setIsopen] = useState(true);
-
-  return (
-    <header className="z-50 py-5 fixed top-0 left-0 w-full  ">
+  
+  return ( 
+    <header id="header" className="z-50 py-5 fixed top-0 left-0 w-full  ">
         <div className="w-full flex justify-between items-center lg:hidden padding-b padding-x">
             <img src={xora} alt="logo" width={115} height={55} className="z-50" />
             <div className="w-10 h-10 border-2 z-50 flex items-center justify-center rounded-full border-s4/25">
