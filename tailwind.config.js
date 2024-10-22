@@ -4,40 +4,24 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    fontSize: {
-      xs: ['12px', '16px'],
-      sm: ['14px', '20px'],
-      base: ['16px', '19.5px'],
-      lg: ['18px', '21.94px'],
-      xl: ['20px', '24.38px'],
-      '2xl': ['24px', '29.26px'],
-      '3xl': ['28px', '50px'],
-      '4xl': ['48px', '58px'],
-      '8xl': ['96px', '106px']
-    },
-    extend: {
-      fontFamily: {
-        palanquin: ['Palanquin', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
-      },
+  theme: { 
+    extend: { 
       colors: {
-        'primary': "#ECEEFF",
-        "coral-red": "#FF6452",
-        "slate-gray": "#6D6D6D",
-        "pale-blue": "#F5F6FF",
-        "white-400": "rgba(255, 255, 255, 0.80)"
+        p1: "#2EF2FF",
+        p2: "#3C52D9",
+        p3: "#C8EA80",
+        p4: "#EAEDFF",
+        p5: "#C4CBF5",
+        s1: "#080D27",
+        s2: "#0C1838",
+        s3: "#334679",
+        s4: "#1959AD",
+        s5: "#263466",
+        black: {
+          DEFAULT: "#000000",
+          100: "#05091D",
+        },
       },
-      boxShadow: {
-        '3xl': '0 10px 40px rgba(0, 0, 0, 0.1)'
-      },
-      backgroundImage: {
-        'hero': "url('assets/images/collection-background.svg')",
-        'card': "url('assets/images/thumbnail-background.svg')",
-      },
-      screens: {
-        "wide": "1440px"
-      }
     },
   },
   plugins: [],

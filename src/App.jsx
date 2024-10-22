@@ -1,10 +1,14 @@
 
-import Header from "./componenets/header"
+import Header from "./section/Header";
+import Hero from "./section/Hero";
 
-export default function App() {
+function App() {
   return (
     <main>
       <Header/>
+      <Hero/>
     </main>
   )
 }
+
+export default App ;

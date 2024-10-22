@@ -4,10 +4,13 @@
 
 * {
   scroll-behavior: smooth;
+  color:white;
 }
-:root {
-  color-scheme: dark;
+body {
+  background-color: #080D27;
 }
+
+
 @layer utilities {
   .padding {
     @apply sm:px-16 px-8 sm:py-24 py-12;
@@ -35,5 +38,29 @@
 
   .padding-b {
     @apply sm:pb-24 pb-12;
+  }
+
+  .h1 {
+    @apply text-[84px] font-black leading-[84px] tracking-[-0.03em];
+  }
+
+  .h2 {
+    @apply text-[64px] font-black leading-[64px];
+  }
+
+  .h3 {
+    @apply text-[48px] font-semibold leading-[56px] tracking-[-0.02em];
+  }
+
+  .h4 {
+    @apply text-[40px] font-semibold leading-[52px];
+  }
+
+  .h5 {
+    @apply text-[32px] font-semibold leading-[40px];
+  }
+
+  .h6 {
+    @apply text-[24px] font-medium leading-[36px];
   }
 }
