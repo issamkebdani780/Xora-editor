@@ -4,7 +4,7 @@ import zap from '../../public/images/zap.svg'
 
 const Hero = () => {
   return (
-    <section className="lg:grid lg:grid-cols-2 padding-x pt-32 lg:pt-14">
+    <section className="lg:grid lg:grid-cols-2 padding-x pt-32 lg:pt-14 mb-10 ">
         <div className="flex justify-center items-start flex-col ">
             <p className="mb-5 text-p3 max-lg:text-2xl uppercase">video editing</p>
             <h1 className="mb-6 h4 lg:h2 uppercase">amazingly simple</h1>

@@ -1,4 +1,5 @@
 
+import Features from "./section/Features";
 import Header from "./section/Header";
 import Hero from "./section/Hero";
 
@@ -7,6 +8,7 @@ function App() {
     <main>
       <Header/>
       <Hero/>
+      <Features/>
     </main>
   )
 }
