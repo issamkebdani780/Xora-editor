@@ -1,15 +1,23 @@
+import { useEffect, useState } from "react";
 import Button from "../component/button";
+import CountUp from "react-countup" ;
+
 
 function Pricing() {
-    function handlePosition() {
-        if (document.getElementById("slider").classList.contains("left-1")) {
-            document.getElementById("slider").classList.remove("left-1");
-            document.getElementById("slider").classList.add("right-1");
-        } else {
-            document.getElementById("slider").classList.remove("right-1");
-            document.getElementById("slider").classList.add("left-1");
-        }
-    }
+
+    const [monthly , setMonthly] = useState(true) ;
+
+    useEffect(() => {
+      if (monthly) {
+        document.getElementById("slider").classList.remove("right-1");
+        document.getElementById("slider").classList.add("left-1");
+      } else {
+        document.getElementById("slider").classList.remove("left-1");
+        document.getElementById("slider").classList.add("right-1");
+      }
+    }, [monthly]) ;
+    
+
     return (
       <section id="pricing" className=" padding-x">
         <div className="flex flex-col items-center mb-16">
@@ -24,7 +32,7 @@ function Pricing() {
             <div
               className="py-2 px-5 w-32 h-11 z-10 font-bold cursor-pointer"
               onClick={() => {
-                handlePosition();
+                setMonthly(true);
               }}
             >
               MONTHLY
@@ -32,7 +40,7 @@ function Pricing() {
             <div
               className="py-2 px-5 w-32 h-11 z-10 font-bold cursor-pointer"
               onClick={() => {
-                handlePosition();
+                setMonthly(false);
               }}
             >
               ANNUAL
@@ -50,7 +58,8 @@ function Pricing() {
               CORE
             </p>
             <h4 className="h4">
-              $12<sup>/Mo</sup>
+              <CountUp start={12} end={monthly ? 12 : 24} duration={0.4} preserveValue useEasing={false}/>
+              <sup>/Mo</sup>
             </h4>
             <p className="text-p4 font-bold mb-12">Best for solo creators</p>
             <ul className="bg-s1 w-full rounded-2xl p-4 flex flex-col gap-2 mb-5 items-center">
@@ -102,7 +111,8 @@ function Pricing() {
               OVERDRIVE
             </p>
             <h4 className="h4 text-p3">
-              $59<sup className="text-p3">/Mo</sup>
+              <CountUp start={59} end={monthly ? 59 : 70} duration={0.4} preserveValue useEasing={false}/>
+              <sup>/Mo</sup>
             </h4>
             <p className="text-p4 font-bold mb-12">Most popular plan</p>
             <ul className="bg-s1 w-full rounded-2xl p-4 flex flex-col  items-center  gap-2 mb-5">
@@ -154,7 +164,8 @@ function Pricing() {
               CORE
             </p>
             <h4 className="h4">
-              $12<sup>/Mo</sup>
+              <CountUp start={29} end={monthly ? 29 : 39} duration={0.4} preserveValue useEasing={false}/>
+              <sup>/Mo</sup>
             </h4>
             <p className="text-p4 font-bold mb-12">Best for solo creators</p>
             <ul className="bg-s1 w-full rounded-2xl p-4 flex flex-col gap-2 mb-5 items-center">
