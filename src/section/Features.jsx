@@ -8,7 +8,7 @@ import feature2 from "../../public/images/feature-2.png";
 
 const Features = () => {
   return (
-    <section className="padding-x mb-20">
+    <section id="features" className="padding-x mb-20">
       <div className="rounded-t-3xl border-t-2 border-x-2 border-t-s3 border-x-s3">
         <div className="flex flex-col lg:flex-row ">
           <Featur

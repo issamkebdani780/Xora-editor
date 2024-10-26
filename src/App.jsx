@@ -2,6 +2,7 @@
 import Features from "./section/Features";
 import Header from "./section/Header";
 import Hero from "./section/Hero";
+import Pricing from "./section/Pricing";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Hero/>
       <Features/>
+      <Pricing/>
     </main>
   )
 }
