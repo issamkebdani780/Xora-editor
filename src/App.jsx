@@ -1,4 +1,5 @@
 
+import FAQ from "./section/FAQ";
 import Features from "./section/Features";
 import Header from "./section/Header";
 import Hero from "./section/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Features/>
       <Pricing/>
+      <FAQ/>
     </main>
   )
 }

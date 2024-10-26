@@ -19,7 +19,7 @@ function Pricing() {
     
 
     return (
-      <section id="pricing" className=" padding-x">
+      <section id="pricing" className=" padding-x mb-20">
         <div className="flex flex-col items-center mb-16">
           <h1 className="h3 text-center pb-7 max-lg:max-w-96 max-w-lg">
             Flexible pricing for teams of all sizes
