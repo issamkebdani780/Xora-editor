@@ -4,6 +4,7 @@ import Features from "./section/Features";
 import Header from "./section/Header";
 import Hero from "./section/Hero";
 import Pricing from "./section/Pricing";
+import Testimonials from "./section/Testimonials";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Features/>
       <Pricing/>
       <FAQ/>
+      <Testimonials/>
     </main>
   )
 }
