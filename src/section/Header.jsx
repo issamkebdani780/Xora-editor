@@ -3,7 +3,6 @@ import xora from "../../public/images/xora.svg";
 import close from "../../public/images/close.svg";
 import magic from "../../public/images/magic.svg";
 import Links from "../component/links";
-gi
 import { useEffect, useState } from "react";
 
 
@@ -51,7 +50,7 @@ const Header = () => {
         <img src={xora} alt="logo" className="max-lg:hidden" />
         <Links l="#FAQ" text="FAQ" />
         <div className="bg-cyan-700 w-1.5 h-1.5 rounded-full max-lg:hidden"></div>
-        <Links l="#DOWNOALD" text="DOWNOALD" />
+        <Links l="#downoald" text="DOWNOALD" />
       </ul>
     </header>
   );

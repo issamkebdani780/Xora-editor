@@ -6,6 +6,7 @@ import Hero from "./section/Hero";
 import Pricing from "./section/Pricing";
 import Testimonials from "./section/Testimonials";
 import Downoald from "./section/Downoald";
+import Footer from "./section/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <FAQ/>
       <Testimonials/>
       <Downoald/>
+      <Footer/>
     </main>
   )
 }
