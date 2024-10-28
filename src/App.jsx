@@ -5,6 +5,7 @@ import Header from "./section/Header";
 import Hero from "./section/Hero";
 import Pricing from "./section/Pricing";
 import Testimonials from "./section/Testimonials";
+import Downoald from "./section/Downoald";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Pricing/>
       <FAQ/>
       <Testimonials/>
+      <Downoald/>
     </main>
   )
 }

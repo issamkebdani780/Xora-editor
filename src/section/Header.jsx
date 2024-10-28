@@ -2,10 +2,11 @@
 import xora from "../../public/images/xora.svg";
 import close from "../../public/images/close.svg";
 import magic from "../../public/images/magic.svg";
-
+import Links from "../component/links";
+gi
 import { useEffect, useState } from "react";
 
-import Links from "../component/links";
+
 const Header = () => {
   const [isOpen, setIsopen] = useState(true);
   

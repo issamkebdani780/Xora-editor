@@ -42,12 +42,12 @@ const FAQ = () => {
         <div className="flex-1 lg:pt-14 px-5">
           <Faq
             number={5}
-            title="How easy is it to setup Xora?"
+            title="can integrate xora withe other platforms?"
             body="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat recusandae cupiditate omnis, optio deleniti ea temporibus quibusdam amet debitis."
           />
           <Faq
             number={6}
-            title="How easy is it to setup Xora?"
+            title="how aften do you add new content?"
             body="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat recusandae cupiditate omnis, optio deleniti ea temporibus quibusdam amet debitis."
           />
           <Faq
@@ -57,7 +57,7 @@ const FAQ = () => {
           />
           <Faq
             number={8}
-            title="How easy is it to setup Xora?"
+            title="what happens when im out of storage?"
             body="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit fugiat recusandae cupiditate omnis, optio deleniti ea temporibus quibusdam amet debitis."
           />
         </div>
