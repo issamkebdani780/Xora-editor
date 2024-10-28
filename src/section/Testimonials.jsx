@@ -2,7 +2,7 @@ import Testi from "../component/Testi"
 
 const Testimonials = () => {
   return (
-    <section className=" padding-x grid grid-cols-1 lg:grid-cols-2 mb-20">
+    <section className="padding-x grid grid-cols-1 lg:grid-cols-2 mb-20">
       <div className="mb-10">
         <p className="text-p3 font-bold">wall of love</p>
         <h4 className="h4 max-w-xs">Words From our fans</h4>
